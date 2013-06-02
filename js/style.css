@@ -1,0 +1,225 @@
+/* THI WAN 
+Designed By: Paul <chun8801@gmail.com> 
+Developed By: Eric <ehwl229@gmail.com>
+*/
+
+
+/* -------- Global Style ------------*/
+
+@font-face {
+	font-family: ProximaNova;
+	src: url('../fonts/ProximaNova-Light.otf') format('opentype');
+}
+
+@font-face {  
+	font-family: ProximaNovaBold;
+	src: url('../fonts/ProximaNova-Bold.otf') format('opentype');
+}
+
+body {
+	font-family: ProximaNova;
+	font-size: 14px;
+	margin: 0px;
+}
+
+#container {
+	width: 1050px;
+	margin: 20px auto 20px auto;
+}
+
+.main_logo{
+	text-align: center;
+	margin-top: 200px;
+}
+
+
+ul.links {
+	list-style: none;
+	margin-top: 100px;
+	color: #000;
+	margin-left: -25px;
+}
+
+ul.links li {
+	display: inline-block;
+	width: 150px;
+	height: 20px;
+
+}
+ul.links li a {
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+	margin-right: 20px;
+}
+
+ul.links li a:hover {
+	color: #771927;
+	font-family: ProximaNovaBold;
+	font-size: 13px;
+}
+
+
+
+
+/* --- Collection Page --*/
+.top-nav{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 1000px;
+
+}
+
+.top-nav-logo{
+	float: left;
+	margin-left: 25px;
+}
+
+#nav_links {
+	list-style: none;
+	text-align: right;
+}
+
+#nav_links li{
+	display: inline-block;
+	position: relative;
+	margin-top: 5px;
+	width: 110px;
+	height: 25px;	
+	text-align: center;
+	right: -50px;
+	margin-right: 2.5px;
+}
+
+#nav_links a{
+	text-decoration: none;
+	display: inline;
+	color: #000;
+}
+
+#nav_links a:hover{
+	color: #771927;
+	font-family: ProximaNovaBold;
+	width: 150px;
+	height: 20px;
+	/*font-size: 13px;*/
+}
+#nav_links a.selected {
+	color: #771927;
+	font-family: ProximaNovaBold;
+	width: 150px;
+	height: 20px;
+	/*font-size: 13px;*/
+}
+
+#nav_links ul.dropdown {
+	background: #fff;
+	background-color: rgba(255, 255, 255, 0.95);
+	list-style: none;
+	position: absolute;
+	z-index: 15;
+	left: -9999px;
+	bottom: -80px;
+	margin-bottom: 30px;
+	-webkit-box-shadow: 2px 2px 2px #777777;
+    -moz-box-shadow: 2px 2px 2px #777777;
+    box-shadow: 2px 2px 2px #777777;
+    margin-left: 25px;
+
+}
+
+#nav_links ul.dropdown li{
+	width: 330px;
+	text-align: left;
+	text-indent: -30px;
+	height: 20px;
+	margin-bottom: 2px;
+}
+
+#nav_links ul.dropdown a{
+	white-space: nowrap;
+
+}
+
+#nav_links li:hover ul{
+	left:0;
+}
+
+#nav_links li:hover ul a {
+	text-decoration: none;
+	
+}
+
+.list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	position: absolute;
+}
+
+.list_carousel li {
+	margin: 5px;
+	display: block;
+	float: left;
+
+}
+
+a.nav-ca-prev{
+	width: 25px;
+	height: 38px;
+	top: 200px;
+	left: -22px;
+	display: block;
+	cursor: pointer;
+	float:left;
+	position: relative;
+	z-index: 200;
+}
+
+a.nav-ca-next {
+	float: left;
+	position: relative;
+	width: 25px;
+	height: 38px;
+	top: 200px;
+	left: 1030px;
+	cursor: pointer;
+	/*display: block;*/
+	z-index: 200;
+
+}
+
+/*---- About Page -------*/
+.about {
+	background: url(../images/About_background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 500px;
+	width: 100%;
+
+}
+
+.about p{
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	padding-top: 180px;
+	line-height: 24px;
+}
+
+/* ----- Contact Page -----*/
+
+.contact{
+	width: 500px;
+	height: 300px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 180px;
+	line-height: 24px;
+}
+
+.contact a {
+	color:#771927;
+	text-decoration: none;
+}
